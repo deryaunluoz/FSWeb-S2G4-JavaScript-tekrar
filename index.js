@@ -1,5 +1,18 @@
 /* Aşağıda global olarak tanımlanmış değişkenler bulunmaktadır, bunları değiştirmeyiniz. Açıklamaları takip ederek görevleri tamamlayın. */
 
+function bilgisayarinHazirMi() {
+  const checklist = {
+    github: 'https://github.com/Workintech',
+    computer: 'windows',
+    vscode_version: '1.103.2',
+    node_version: 'v22.18.0',
+    demo_project_url: 'https://github.com/deryaunluoz/FSWeb-S2G4-JavaScript-tekrar',
+  };
+  return checklist;
+}
+
+
+
 const pi = 3.14159;
 
 const sayilar = [
@@ -140,3 +153,7 @@ module.exports = {
   siralisayilar,
   tekraredensayilar,
 };
+// Bu benim ilk commit'im 😊
+console.log("Ödev çıktısı:", bilgisayarinHazirMi());
+
+module.exports = bilgisayarinHazirMi;
